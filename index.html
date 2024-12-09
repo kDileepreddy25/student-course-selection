@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Course and Teacher Assignment System</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Course and Teacher Assignment System</h1>
+
+        <!-- Theory Course Selection Section -->
+        <section class="course-section">
+            <h2>Select Your Theory Courses</h2>
+            <form id="courseForm">
+                <div class="course">
+                    <label for="theoryCourse1">Theory Course 1:</label>
+                    <select id="theoryCourse1" required>
+                        <option value="">Select Course</option>
+                        <option value="Data Structures">Data Structures</option>
+                        <option value="Operating Systems">Operating Systems</option>
+                        <option value="Database Systems">Database Systems</option>
+                        <option value="Artificial Intelligence">Artificial Intelligence</option>
+                    </select>
+                    
+                    <label for="theoryTeacher1">Select Teacher:</label>
+                    <select id="theoryTeacher1" required>
+                        <option value="">Select Teacher</option>
+                        <option value="Prof. John Doe">Prof. John Doe</option>
+                        <option value="Prof. Jane Smith">Prof. Jane Smith</option>
+                        <option value="Prof. Emily Brown">Prof. Emily Brown</option>
+                    </select>
+                </div>
+
+                <div class="course">
+                    <label for="theoryCourse2">Theory Course 2:</label>
+                    <select id="theoryCourse2" required>
+                        <option value="">Select Course</option>
+                        <option value="Data Structures">Data Structures</option>
+                        <option value="Operating Systems">Operating Systems</option>
+                        <option value="Database Systems">Database Systems</option>
+                        <option value="Artificial Intelligence">Artificial Intelligence</option>
+                    </select>
+
+                    <label for="theoryTeacher2">Select Teacher:</label>
+                    <select id="theoryTeacher2" required>
+                        <option value="">Select Teacher</option>
+                        <option value="Prof. Mark Lee">Prof. Mark Lee</option>
+                        <option value="Prof. Sarah Connor">Prof. Sarah Connor</option>
+                        <option value="Prof. Alan Turing">Prof. Alan Turing</option>
+                    </select>
+                </div>
+
+                <div class="course">
+                    <label for="theoryCourse3">Theory Course 3:</label>
+                    <select id="theoryCourse3" required>
+                        <option value="">Select Course</option>
+                        <option value="Data Structures">Data Structures</option>
+                        <option value="Operating Systems">Operating Systems</option>
+                        <option value="Database Systems">Database Systems</option>
+                        <option value="Artificial Intelligence">Artificial Intelligence</option>
+                    </select>
+
+                    <label for="theoryTeacher3">Select Teacher:</label>
+                    <select id="theoryTeacher3" required>
+                        <option value="">Select Teacher</option>
+                        <option value="Prof. Albert Einstein">Prof. Albert Einstein</option>
+                        <option value="Prof. Marie Curie">Prof. Marie Curie</option>
+                        <option value="Prof. Stephen Hawking">Prof. Stephen Hawking</option>
+                    </select>
+                </div>
+
+                <div class="course">
+                    <label for="theoryCourse4">Theory Course 4:</label>
+                    <select id="theoryCourse4" required>
+                        <option value="">Select Course</option>
+                        <option value="Data Structures">Data Structures</option>
+                        <option value="Operating Systems">Operating Systems</option>
+                        <option value="Database Systems">Database Systems</option>
+                        <option value="Artificial Intelligence">Artificial Intelligence</option>
+                    </select>
+
+                    <label for="theoryTeacher4">Select Teacher:</label>
+                    <select id="theoryTeacher4" required>
+                        <option value="">Select Teacher</option>
+                        <option value="Prof. Ada Lovelace">Prof. Ada Lovelace</option>
+                        <option value="Prof. Isaac Newton">Prof. Isaac Newton</option>
+                        <option value="Prof. Nikola Tesla">Prof. Nikola Tesla</option>
+                    </select>
+                </div>
+
+                <button type="submit" class="btn-submit">Submit Theory Courses</button>
+            </form>
+        </section>
+
+        <!-- Lab Course Selection Section -->
+        <section class="lab-section">
+            <h2>Select Your Lab Courses</h2>
+            <form id="labForm">
+                <div class="course">
+                    <label for="labCourse1">Lab Course 1:</label>
+                    <select id="labCourse1" required>
+                        <option value="">Select Lab Course</option>
+                        <option value="Data Structures Lab">Data Structures Lab</option>
+                        <option value="OS Lab">OS Lab</option>
+                        <option value="DBMS Lab">DBMS Lab</option>
+                        <option value="Networks Lab">Networks Lab</option>
+                    </select>
+
+                    <label for="labTeacher1">Select Teacher:</label>
+                    <select id="labTeacher1" required>
+                        <option value="">Select Teacher</option>
+                        <option value="Prof. John von Neumann">Prof. John von Neumann</option>
+                        <option value="Prof. Grace Hopper">Prof. Grace Hopper</option>
+                        <option value="Prof. Richard Feynman">Prof. Richard Feynman</option>
+                    </select>
+                </div>
+
+                <div class="course">
+                    <label for="labCourse2">Lab Course 2:</label>
+                    <select id="labCourse2" required>
+                        <option value="">Select Lab Course</option>
+                        <option value="Data Structures Lab">Data Structures Lab</option>
+                        <option value="OS Lab">OS Lab</option>
+                        <option value="DBMS Lab">DBMS Lab</option>
+                        <option value="Networks Lab">Networks Lab</option>
+                    </select>
+
+                    <label for="labTeacher2">Select Teacher:</label>
+                    <select id="labTeacher2" required>
+                        <option value="">Select Teacher</option>
+                        <option value="Prof. Katherine Johnson">Prof. Katherine Johnson</option>
+                        <option value="Prof. Rosalind Franklin">Prof. Rosalind Franklin</option>
+                        <option value="Prof. Charles Babbage">Prof. Charles Babbage</option>
+                    </select>
+                </div>
+
+                <button type="submit" class="btn-submit">Submit Lab Courses</button>
+            </form>
+        </section>
+
+        <!-- Feedback Section -->
+        <section class="feedback-section">
+            <h2>Submit Feedback</h2>
+            <textarea id="feedback" placeholder="Enter your feedback..." required></textarea>
+            <button id="submitFeedbackBtn" class="btn-submit">Submit Feedback</button>
+        </section>
+    </div>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
